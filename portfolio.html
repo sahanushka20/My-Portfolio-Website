@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis of Creation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+ 
+<style>
+    
+    body{
+        margin:0px;
+    }  
+    
+   .home{
+    background-image: url(coffee\ table.jpg);    
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    
+    
+    
+}
+
+.navigation{
+    display: block;
+    width: 33%;
+    /* border: 2px solid green; */
+     margin: 0px auto;
+}
+.navbar{
+      display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.navbar li a{
+    color:bisque;
+    text-decoration: none;
+    padding: 25px 17px;
+}
+.navbar li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.navbar li a:active{
+    text-decoration: underline;
+    color: white;
+}
+
+ .intro{
+    text-align: center;
+    /* font-family: 'Monsieur La Doulaise', cursive; */
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 100; 
+    font-size: 50px;
+    margin: 190px auto;
+}  
+
+ 
+#about{
+    border: 2px solid rgb(202, 19, 114);
+     width:25%;
+    margin-top: 100px;
+    position: absolute;
+    left: 40px;
+    display: inline-block;
+    padding: 0px 40px;
+    font-size: 22px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-left: 194px; 
+    border-radius: 65px;
+    box-shadow: 5px 8px 14px rgba(202, 19, 114, 0.292);
+}
+#projects{
+    border: 2px solid rgb(22, 95, 106);
+    width:25%;
+    position:absolute;
+    right: 40px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 194px;
+    font-size: 22px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding: 0px 40px;
+    border-radius: 65px;
+    box-shadow: 5px 8px 14px rgba(22, 95, 106, 0.459);
+}
+.project button{
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(128, 128, 128, 0.399);
+    border: none;
+    height: 25px;
+    margin: 2.8px;
+
+}
+.project button:hover{
+    cursor: pointer;
+}
+.project h2{
+    color: rgb(22, 95, 106);
+}
+.about-me h2{
+    color: rgb(202, 19, 114);
+}
+#contact{
+    /* border: 2px solid grey; */
+    /* float: right;
+    position: fixed; */
+    right:1px; 
+    margin-top: 220px;
+    position: absolute;
+}
+#contact ul{
+    list-style: none;
+    padding-left: 23px;
+    padding-right: 5px;
+}
+#contact li {
+    padding-top: 10px;
+}
+
+ 
+</style>
+<body>
+    <div id="home" class="home">
+        
+        <header>
+             
+            <div class="navigation"> 
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </header>
+         
+         <h2 class="intro">Let's dive into the oasis of creation</h2>  
+          
+    </div>
+    <div class="dive">
+        <div id="about" class="about-me">
+            <h2>About me</h2>
+         <p> Hey folks, I'm Anushka, a passionate beginner in web development and UI/UX, eager to create engaging interfaces and user-friendly websites. Constantly learning and seeking new opportunities to enhance skills. Goal-driven and committed to making a positive impact on the digital landscape. Let's collaborate and craft memorable digital experiences together!</p>   
+        </div>
+        <div id="projects">
+            <ul class="project">
+                <h2>Projects</h2>
+                <li>CatPhotoApp <br>
+                    <a href="https://github.com/sahanushka20/FreeCodeCamp/tree/main/CatPhotoApp"><button>Source code</button></a>
+                </li>
+                <li>Cafe Menu <br>
+
+                    <a href="https://github.com/sahanushka20/FreeCodeCamp/tree/main/Cafe%20Menu"><button>Source code</button></a>
+                </li>
+                <li>Registration Form <br>
+                    <a href="https://github.com/sahanushka20/FreeCodeCamp/tree/main/Registration%20Form"><button>Source code</button></a>
+                </li>
+                <li>Nike Air Max 90 <br>
+                    <a href="https://github.com/sahanushka20/Nike-Air-Max-90"><button>Source code</button></a>
+                </li>
+                <li>Rothko Painting <br>
+                <a href="https://github.com/sahanushka20/FreeCodeCamp/tree/main/Rothko%20Painting"><button>Source code</button></a>
+            </li>
+            </ul>
+        </div>
+        <div id="contact">
+            <ul>
+                <li><a href="mailto:sahanushka1820@gmail.com" target="_blank"><img src="mail.png" width="27px" height="25px" alt="Email"></a></li>
+                <li><a href="https://github.com/sahanushka20" target="_blank"><img src="git.png" width="30px" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/sah-anushka/" target="_blank"><img src="in.png" width="30px" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
